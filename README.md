@@ -1,7 +1,7 @@
 ## GiphyAPI
 This is the sixth assignment of the UCF Coding Bootcamp. This assignment utilizes the GIPHY API to create a dynamic web page presents the user with the gifs of their choice.
 
-## This app displays buttons related to a certain topic and allows you to add search terms to generate additional buttons that when clicked, accesses the GIPHY API and generates 10 static GIPHY images. Click on an image to pause or play the GIF.
+This app displays buttons related to a certain topic and allows you to add search terms to generate additional buttons that when clicked, accesses the GIPHY API and generates 10 static GIPHY images. Click on an image to pause or play the GIF.
 
 ## Requirements
 This app uses the terms from a user input box and pushes them into an array, which creates additional buttons in the HTML. When the button is clicked, additional non-animated, static gif images are retrieved via the GIPHY API and puts them on the page.
@@ -24,3 +24,4 @@ This app uses the terms from a user input box and pushes them into an array, whi
 	- To execute the function that adds topics to the array: $("#addShow").on("click", function(event)
 	- To display the gifs to the page by clicking on the topic buttons: $(document).on("click", "#show", displayNetflixShow).
 	- To pause and play the gifs by clicking on the Gifs: $(document).on("click", ".director", displayGifs).
+- The following is a link to the trivia game: (https://aboulie.github.io/giphyapi/)
